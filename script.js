@@ -12,8 +12,8 @@ document.getElementById('Reg_Form').addEventListener('submit', function (event) 
     console.log('Number:', num);
 
     document.getElementById('1').innerHTML=fname;
-    document.getElementById('2').innerHTML= "Last Name: " + lname;
-    document.getElementById('3').innerHTML= "Email: " + email;
-    document.getElementById('4').innerHTML= "Mobile Number: " + num;
+    document.getElementById('2').innerHTML=lname;
+    document.getElementById('3').innerHTML=email;
+    document.getElementById('4').innerHTML=num;
 
 });
